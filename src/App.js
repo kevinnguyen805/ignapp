@@ -9,6 +9,11 @@ function App() {
         <p className="application-title">🥺 Kevin for IGN product manager intern 🥺 </p>
       </div> */}
       <div className="app">
+        <div className="application-footer-container">
+          <a className="application-links"> 📎 Resume</a>
+          <a className="application-links"> 🔥 Portfolio</a>
+          <a className="application-links"> 📋 Document view</a>
+        </div>
         <div className="application-title-container">
           <p className="application-title">🥺 Kevin for IGN product manager intern 🥺 </p>
         </div>
@@ -18,10 +23,6 @@ function App() {
 
         </div>
 
-        <div className="application-footer-container">
-          <a> 📎 Resume</a>
-          <a> 🔥 Portfolio</a>
-        </div>
       </div>
     </div>
   );
