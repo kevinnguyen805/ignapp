@@ -11,7 +11,7 @@ function Intro(){
                     </div>
                     <div className="column-content-container">
                          <div className="column-content">
-                              <p className="content">Growing up, I spent 6 years studying Buddhism. My time at these local monasteries allowed me to develop a keen sense of empathy. It allowed me to take on leadership roles such as class president and recruitment director during high school and college.</p>
+                              <p className="content">Growing up, I spent 6 years studying Buddhism. My time at these local monasteries allowed me to develop a keen sense of empathy. This allowed me to take on leadership roles such as class president and recruitment director during high school and college.</p>
                               <div className="content-labels">
                                    <div className="button-container">
                                         <button className="button-label red">Empathy</button>
@@ -48,7 +48,7 @@ function Intro(){
                               </div>
                          </div>
                          <div className="column-content">
-                              <p className="content">I love studying film in my free time. I've always been intrigued by the way cinematographers use elements like colors, symmetry, character arcs, and music scores to elicit emotions from their audience. It's these details that leaves a lasting impression.</p>
+                              <p className="content">I love studying film in my free time. I've always been intrigued by the way cinematographers use elements like colors, architecture, and music scores to elicit emotions from their audience. It's these details that leave a lasting impression.</p>
                               <div className="content-labels">
                                    <div className="button-container">
                                         <button className="button-label lightblue">Film art</button>
