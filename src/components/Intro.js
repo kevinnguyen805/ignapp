@@ -15,7 +15,7 @@ function Intro(){
                               <div className="content-labels">
                                    <div className="button-container">
                                         <button className="button-label red">Empathy</button>
-                                        <button className="button-label darkblue">Leadership</button>
+                                        <button className="button-label lightblue">Human connection</button>
                                    </div>
                                    <div className="emoji-container">
                                         <p className="emoji">🙏🏼</p>
@@ -23,11 +23,11 @@ function Intro(){
                               </div>
                          </div>
                          <div className="column-content">
-                              <p className="content">I recently graduated with a background in healthcare. Under additional mentorship by John Greathouse of Rincon Venture and his Technology Management Program, I transitioned over to the tech industry to leverage my interpersonal skills and passion for scalable impact. <br /> <br />Being able to empathize in the perspective of users has changed the way I’ve approached software development. If I’ve learned anything from coding thus far, it’s that languages are always changing and evolving - and I plan on doing the same.</p>
+                              <p className="content">I recently graduated with a background in healthcare. Under additional mentorship by John Greathouse of Rincon Venture and his Technology Management Program, I transitioned over to the tech industry to leverage my interpersonal skills and passion for scalable impact. <br /> <br />If I’ve learned anything from coding thus far, it’s that languages are always changing and evolving - and I plan on doing the same.</p>
                               <div className="content-labels">
                                    <div className="button-container">
                                         <button className="button-label green">Healthcare</button>
-                                        <button className="button-label pink">Technology management</button>
+                                        <button className="button-label purple">Technology management</button>
                                         {/* <button className="button-label darkblue">Scalable impact</button> */}
                                    </div>
                                    <div className="emoji-container">
@@ -51,8 +51,8 @@ function Intro(){
                               <p className="content">I love studying film in my free time. I've always been intrigued by the way cinematographers use elements like colors, architecture, and music scores to elicit emotions from their audience. It's these details that leave a lasting impression.</p>
                               <div className="content-labels">
                                    <div className="button-container">
-                                        <button className="button-label lightblue">Film art</button>
-                                        <button className="button-label teal">User experience</button>
+                                        <button className="button-label yellow">Film art</button>
+                                        <button className="button-label pink">User experience</button>
                                    </div>
                                    <div className="emoji-container">
                                         <p className="emoji">🍿</p>
@@ -70,11 +70,11 @@ function Intro(){
                     </div>
                     <div className="column-content-container">
                          <div className="column-content">
-                              <p className="content">Growing up, IGN was my friendly neighborhood game informant. Whether it was Pokemon or Maplestory, IGN was my north star that led me to all the insider scoops and latest updates. In college, IGN was my lifeline in Mortal Kombat. Without their tutorials, I’d still be losing matches in record time.</p>
+                              <p className="content">Growing up, IGN was my friendly neighborhood game informant. Whether it was Pokemon or Maplestory, IGN was my north star that led me to all the insider scoops and latest updates. In college, IGN was my lifeline in Mortal Kombat. Without their tutorials, I’d still be losing matches with Shinnok in record time. (I'm still pretty bad)</p>
                               <div className="content-labels">
                                    <div className="button-container">
-                                        <button className="button-label red">Empathy</button>
-                                        <button className="button-label darkblue">Leadership</button>
+                                        <button className="button-label orange">Nostalgia</button>
+                                        <button className="button-label purple">Bad at Mortal Kombat</button>
                                    </div>
                                    <div className="emoji-container">
                                         <p className="emoji">🙏🏼</p>
@@ -82,11 +82,11 @@ function Intro(){
                               </div>
                          </div>
                          <div className="column-content">
-                              <p className="content">Early exposure to IGN’s movie reviews catalyzed my passion for film art. The videos taught me how to analyze plots, understand character arcs, and experience the movie through the lens of the producer. IGN has been an integral part in all my hobbies, providing the content has fueled my interests in what they are today. </p>
+                              <p className="content">Early exposure to IGN movie reviews sparked my passion for film art. The videos taught me how to analyze plots, understand character arcs, and experience the movie through the lens of the producer. IGN has been an integral part in all my hobbies, providing the catalyst for what my interests are today. </p>
                               <div className="content-labels">
                                    <div className="button-container">
-                                        <button className="button-label red">Empathy</button>
-                                        <button className="button-label darkblue">Leadership</button>
+                                        <button className="button-label teal">Film art</button>
+                                        <button className="button-label lightpink">Catalyst</button>
                                    </div>
                                    <div className="emoji-container">
                                         <p className="emoji">🙏🏼</p>
@@ -94,18 +94,18 @@ function Intro(){
                               </div>
                          </div>
                          <div className="column-content">
-                              <p className="content">My early exposure to IGN’s movie reviews led me on the path to study film art and design in my free time. It taught me how to ask questions, understand character arcs, and experience the movie through the lens of the producer. Generally speaking, it is the cornerstone behind several of my hobbies, and gave me the resources to allow these interests to find its own identities. </p>
+                              <p className="content">I want to be a part of the IGN family because I want to serve a wide range of users on a large scaled platform. It challenges me to continue expanding my scope of knowledge on different user bases, and follows my values of integrating myself in new environments and new people. <br /> <br /> IGN is the perfect place where I can use technical background and interpersonal experience to help users immerse themselves in their hobbies and passions. </p>
                               <div className="content-labels">
                                    <div className="button-container">
-                                        <button className="button-label red">Empathy</button>
-                                        <button className="button-label darkblue">Leadership</button>
+                                        <button className="button-label royalblue">User driven</button>
+                                        <button className="button-label yellow">Values based</button>
                                    </div>
                                    <div className="emoji-container">
                                         <p className="emoji">🙏🏼</p>
                                    </div>
                               </div>
                          </div>
-                         <div className="column-content">
+                         {/* <div className="column-content">
                               <p className="content">IGN has been the cornerstone behind so many of my fondest memories. My motivation to work at IGN is deeply rooted in ensuring that the wide spectrum of users, whether professional, casual, or users looking to satisfy their nostalgia, are provided with the experience needed to navigate their own hobbies and interests. To me, having the opportunity to give back to a company like IGN would be like a main character completing their character arc. </p>
                               <div className="content-labels">
                                    <div className="button-container">
@@ -116,7 +116,7 @@ function Intro(){
                                         <p className="emoji">🙏🏼</p>
                                    </div>
                               </div>
-                         </div>
+                         </div> */}
                          
                     </div>
                </div> 
@@ -129,8 +129,8 @@ function Intro(){
                               <p className="content">My background in engineering has trained me to become an effective technical problem solver. Additionally, building on cross-functional teams has taught me how to work with different disciplines like data scientists, UX designers, and stakeholders. <br /> <br /> My technical experience in communicating, roadmapping, and building products can benefit IGN’s products when considering optimization and scalability. </p>
                               <div className="content-labels">
                                    <div className="button-container">
-                                        <button className="button-label red">Empathy</button>
-                                        <button className="button-label darkblue">Leadership</button>
+                                        <button className="button-label pink">Full stack engineer</button>
+                                        <button className="button-label green">Technical problem solver</button>
                                    </div>
                                    <div className="emoji-container">
                                         <p className="emoji">🙏🏼</p>
@@ -138,11 +138,11 @@ function Intro(){
                               </div>
                          </div>
                          <div className="column-content">
-                              <p className="content">I taught myself UI/UX design out of love for film. It felt natural because I understood the importance of design for visual storytelling. When conceptualizing products, I make sure I consider elements like user flow and accessibility match user stories and their needs. <br /> <br /> My experience in user research, problem framing, prototyping, and testing can be useful at IGN, where storytelling and visuals play an integral part in capturing the essence of video games and movies. </p>
+                              <p className="content">I taught myself UI/UX design out of love for film. It felt natural because I understood the importance of design in visual storytelling. When conceptualizing products, I make sure I consider elements like user flow and accessibility match user stories and their needs. <br /> <br /> My experience in user research, problem framing, prototyping, and testing can be useful at IGN, where storytelling and visuals play an integral part in capturing the essence of video games and movies. </p>
                               <div className="content-labels">
                                    <div className="button-container">
-                                        <button className="button-label red">Empathy</button>
-                                        <button className="button-label darkblue">Leadership</button>
+                                        <button className="button-label purple">User-centered design</button>
+                                        <button className="button-label lightblue">Visual storytelling</button>
                                    </div>
                                    <div className="emoji-container">
                                         <p className="emoji">🙏🏼</p>
@@ -150,11 +150,11 @@ function Intro(){
                               </div>
                          </div>
                          <div className="column-content">
-                              <p className="content">A unique trait I bring is my healthcare background. The empathy and life lessons from working with patients have changed the way I’ve approached building products. For instance, working in ketamine psychiatry taught me how certain business practices and application designs amplify anxiety. I use these anecdotes to build applications that account for accessibility and usability for all users.</p>
+                              <p className="content">A unique trait I bring is my healthcare background. The insights I've gained from working with patients have changed the way I’ve approached products. For instance, working in ketamine psychiatry taught me how certain business practices and application designs amplify anxiety. I use these anecdotes to build applications that account for accessibility and usability for all users.</p>
                               <div className="content-labels">
                                    <div className="button-container">
-                                        <button className="button-label red">Empathy</button>
-                                        <button className="button-label darkblue">Leadership</button>
+                                        <button className="button-label red">Patient insights</button>
+                                        <button className="button-label darkblue">Accessibility design</button>
                                    </div>
                                    <div className="emoji-container">
                                         <p className="emoji">🙏🏼</p>
@@ -206,7 +206,7 @@ function Intro(){
                               </div>
                          </div>
                          <div className="column-content">
-                              <p className="content">Processes and productivity runs through my blood. As a visual learner, I used roadmaps to connect concepts when I studied biology. Whenever big trips came up, I’d often construct checklists and itineraries in the form of roadmaps. A personal favorite is my Coachella checklist. Moving as a unit is daunting when it involves 40+ people and 10+ cars, so I made sure to create multiple guides that accounted for the individual, the car, and the entirety of the campsite. </p>
+                              <p className="content">As a visual learner, I used roadmaps to connect concepts when I studied biology. Whenever big trips came up, I’d often construct checklists and itineraries in the form of roadmaps. A personal favorite is my Coachella checklist. Moving as a unit is daunting when it involves 40+ people and 10+ cars, so I made sure to create multiple guides that accounted for the individual, the car, and the entirety of the campsite. </p>
                               <div className="content-labels">
                                    <div className="button-container">
                                         <button className="button-label red">Empathy</button>
