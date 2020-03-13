@@ -73,6 +73,7 @@ function Intro(){
                               <p className="content">Growing up, IGN was my friendly neighborhood game informant. Whether it was Pokemon or Maplestory, IGN was my north star that led me to all the insider scoops and latest updates. In college, IGN was my lifeline in Mortal Kombat. Without their tutorials, I’d still be losing matches with Shinnok in record time. (I'm still pretty bad)</p>
                               <div className="content-labels">
                                    <div className="button-container">
+                                        <button className="button-label green">Childhood</button>
                                         <button className="button-label orange">Nostalgia</button>
                                         <button className="button-label purple">Bad at Mortal Kombat</button>
                                    </div>
