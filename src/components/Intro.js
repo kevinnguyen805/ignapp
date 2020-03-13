@@ -70,7 +70,7 @@ function Intro(){
                     </div>
                     <div className="column-content-container">
                          <div className="column-content">
-                              <p className="content">Growing up, I spent 6 years studying Buddhism. My time at these local monasteries allowed me to develop a keen sense of empathy. It allowed me to take on leadership roles such as class president and recruitment director during high school and college.</p>
+                              <p className="content">Everywhere I go, I try and surround myself in unfamiliar environments. You get to meet some pretty cool people that way. I spent 6 years studying Buddhism with monks, worked with the pioneer of ketamine psychotherapy, and delivered street medicine to the homeless population. All of this has broadened my understanding of people and myself.</p>
                               <div className="content-labels">
                                    <div className="button-container">
                                         <button className="button-label red">Empathy</button>
@@ -82,7 +82,7 @@ function Intro(){
                               </div>
                          </div>
                          <div className="column-content">
-                              <p className="content">Growing up, I spent 6 years studying Buddhism. My time at these local monasteries allowed me to develop a keen sense of empathy. It allowed me to take on leadership roles such as class president and recruitment director during high school and college.</p>
+                              <p className="content">Growing up, IGN was my friendly neighborhood game informant. Whether it was Pokemon or Maplestory, the IGN logo was my north star that led me to all the insider scoops and latest updates. In college, IGN was my lifeline in Mortal Kombat. Without their tutorials, I would still probably be losing matches in record time. </p>
                               <div className="content-labels">
                                    <div className="button-container">
                                         <button className="button-label red">Empathy</button>
@@ -94,7 +94,7 @@ function Intro(){
                               </div>
                          </div>
                          <div className="column-content">
-                              <p className="content">Growing up, I spent 6 years studying Buddhism. My time at these local monasteries allowed me to develop a keen sense of empathy. It allowed me to take on leadership roles such as class president and recruitment director during high school and college.</p>
+                              <p className="content">My early exposure to IGN’s movie reviews led me on the path to study film art and design in my free time. It taught me how to ask questions, understand character arcs, and experience the movie through the lens of the producer. Generally speaking, it is the cornerstone behind several of my hobbies, and gave me the resources to allow these interests to find its own identities. </p>
                               <div className="content-labels">
                                    <div className="button-container">
                                         <button className="button-label red">Empathy</button>
@@ -106,7 +106,7 @@ function Intro(){
                               </div>
                          </div>
                          <div className="column-content">
-                              <p className="content">Growing up, I spent 6 years studying Buddhism. My time at these local monasteries allowed me to develop a keen sense of empathy. It allowed me to take on leadership roles such as class president and recruitment director during high school and college.</p>
+                              <p className="content">IGN has been the cornerstone behind so many of my fondest memories. My motivation to work at IGN is deeply rooted in ensuring that the wide spectrum of users, whether professional, casual, or users looking to satisfy their nostalgia, are provided with the experience needed to navigate their own hobbies and interests. To me, having the opportunity to give back to a company like IGN would be like a main character completing their character arc. </p>
                               <div className="content-labels">
                                    <div className="button-container">
                                         <button className="button-label red">Empathy</button>
@@ -126,7 +126,8 @@ function Intro(){
                     </div>
                     <div className="column-content-container">
                          <div className="column-content">
-                              <p className="content">Growing up, I spent 6 years studying Buddhism. My time at these local monasteries allowed me to develop a keen sense of empathy. It allowed me to take on leadership roles such as class president and recruitment director during high school and college.</p>
+                              <p className="content">After graduating from UCSB with a degree in Biology, I threw in my scrubs to become a FullStack Web Developer. <br /><br />
+If I’ve learned anything from coding thus far, it’s that languages are always changing and evolving - and I plan on doing the same.</p>
                               <div className="content-labels">
                                    <div className="button-container">
                                         <button className="button-label red">Empathy</button>
@@ -138,7 +139,7 @@ function Intro(){
                               </div>
                          </div>
                          <div className="column-content">
-                              <p className="content">Growing up, I spent 6 years studying Buddhism. My time at these local monasteries allowed me to develop a keen sense of empathy. It allowed me to take on leadership roles such as class president and recruitment director during high school and college.</p>
+                              <p className="content">My background in engineering has trained me to become an effective technical problem solver. Additionally, building on cross-functional teams has taught me how to work with different disciplines like data scientists, UX designers, and stockholders. I believe that understanding the technical side of products, such as optimization, communication, and technical roadmapping, would be great for IGN's operations.</p>
                               <div className="content-labels">
                                    <div className="button-container">
                                         <button className="button-label red">Empathy</button>

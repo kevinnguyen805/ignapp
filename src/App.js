@@ -1,5 +1,6 @@
 import React from 'react';
 import Intro from './components/Intro'
+import Questions from './components/Questions'
 import './App.css';
 
 function App() {
@@ -20,7 +21,7 @@ function App() {
         
         <div className="application-container">
           <Intro />
-
+          {/* <Questions /> */}
         </div>
 
       </div>
