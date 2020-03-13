@@ -11,7 +11,7 @@ function App() {
       </div> */}
       <div className="app">
         <div className="application-footer-container">
-          <a className="application-links"> 📎 Resume</a>
+          {/* <a className="application-links"> 📎 Resume</a> */}
           <a className="application-links"> 🔥 Portfolio</a>
           <a className="application-links"> 📋 Document view</a>
         </div>
@@ -25,6 +25,7 @@ function App() {
         </div>
 
       </div>
+      
     </div>
   );
 }
