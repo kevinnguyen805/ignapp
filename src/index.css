@@ -50,9 +50,11 @@ html,body{
 
   
 
-   width: 88vh;
+   /* width: 88vh; */
+   width: 91vh;
   height: 100vw;
-  transform: rotate(-90deg) translateX(-88vh);
+  /* transform: rotate(-90deg) translateX(-88vh); */
+  transform: rotate(-90deg) translateX(-91vh);
   transform-origin: top left;
   overflow-y: scroll;
   overflow-x: hidden;
@@ -70,7 +72,8 @@ html,body{
   display: flex;
   flex-direction: row;
   width: 100vw;
-  transform: rotate(90deg) translateY(-87vh);
+  /* transform: rotate(90deg) translateY(-87vh); */
+  transform: rotate(90deg) translateY(-90vh);
   transform-origin: top left;
 }
 
