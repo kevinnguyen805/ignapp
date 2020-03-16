@@ -100,7 +100,7 @@ function Intro(){
                               </div>
                          </div> */}
                          <div className="column-content">
-                              <p className="content">Early exposure to IGN movie reviews sparked my passion for film art. The videos taught me how to analyze plots, understand character arcs, and experience the movie through the lens of the producer. IGN has been an integral part in all my hobbies, providing the catalyst for what my interests are today. </p>
+                                   <p className="content">Early exposure to IGN movie reviews sparked my passion for film art. They taught me how to analyze plots, understand character arcs, and experience the movie through the lens of the producer. IGN has been an integral part in all my hobbies, providing the catalyst for what my interests are today.</p>
                               <div className="content-labels">
                                    <div className="button-container">
                                         <button className="button-label teal">Film art</button>
@@ -112,7 +112,7 @@ function Intro(){
                               </div>
                          </div>
                          <div className="column-content">
-                              <p className="content">I want to be a part of the IGN family because I want to serve a wide range of users on a large scaled platform. It challenges me to continue expanding my scope of knowledge on different user bases, and follows my values of integrating myself in new environments and new people. <br /> <br /> IGN is the perfect place where I can use technical background and interpersonal experience to help users immerse themselves in their hobbies and passions. </p>
+                              <p className="content">I want to be a part of the IGN family because I want to serve a wide range of users on a large scaled platform. It challenges me to continue expanding my scope of knowledge on different user bases and follows my values of integrating myself in new environments and new people. <br /> <br /> IGN is the perfect place where I can use technical background and interpersonal experience to help users immerse themselves in their hobbies and passions. </p>
                               <div className="content-labels">
                                    <div className="button-container">
                                         <button className="button-label royalblue">User driven</button>
@@ -463,11 +463,20 @@ function Intro(){
                               </div>
                               <div className="column-content-container">
                                    <div className="column-content">
-                                        <p className="content">Use social media platforms to bring brand awareness. Manipulating how the content is delivered, such as through memes or Tik Toks, allow the show to trend viraly through the fanbase themselves. </p>
+                                        <p className="content">Use social media platforms to bring brand awareness. Manipulating how the content is delivered, such as through memes or Tik Toks, allow the show to trend viraly through the fanbase themselves.</p>
                                         <div className="content-labels">
                                              <div className="button-container">
                                                   <button className="button-label pink">Social media presence</button>
                                                   <button className="button-label teal">Virality marketing</button>
+                                             </div>
+                                        </div>
+                                   </div>
+                                   <div className="column-content">
+                                        <p className="content">Making a good first impression when users come across your content is also important to consider. Designing vibrant thumbnails and tracking peak traffic times are great marketing techniques that are often overlooked. </p>
+                                        <div className="content-labels">
+                                             <div className="button-container">
+                                                  <button className="button-label lightblue">Vibrant thumbnail</button>
+                                                  <button className="button-label red">Peak traffic times</button>
                                              </div>
                                         </div>
                                    </div>
@@ -672,7 +681,7 @@ function Intro(){
                                              <br />• Inefficient user flow
                                              <br />
                                              <br />
-                                             <a className="pivot-table-link" href="https://docs.google.com/spreadsheets/d/1KrocpZ7Srl_f8xeHFUs_nKvEuxNIZbH_5NTHn5Oq3PA/edit?usp=sharing">Click here to see the pivot table and chart.</a>
+                                             <a className="pivot-table-link" href="https://docs.google.com/spreadsheets/d/1KrocpZ7Srl_f8xeHFUs_nKvEuxNIZbH_5NTHn5Oq3PA/edit#gid=1960556517">Click here to see the pivot table and chart.</a>
                                              </p>
                                    </div>
                                         {/* <img className="content-image" src={uf1} alt="pivot table" /> */}
