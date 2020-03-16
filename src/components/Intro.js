@@ -479,7 +479,7 @@ function Intro(){
                               </div>
                               <div className="column-content-container">
                                    <div className="column-content">
-                                        <p className="content">Use social media platforms to bring brand awareness. Manipulating how the content is delivered, such as through memes or Tik Toks, allow the show to trend viraly through the fanbase themselves.</p>
+                                        <p className="content">Focus on using micro and macro influencers on social media platforms to bring brand awareness. By using these influencers' platforms and manipulating how the show us publicized on their domain (such as through ads, memes, or Tik Toks), we allow the show to trend viraly through the fanbases of these influencers, while establishing some level of consumer trust.</p>
                                         <div className="content-labels">
                                              <div className="button-container">
                                                   <button className="button-label pink">Social media presence</button>
