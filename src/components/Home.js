@@ -10,7 +10,8 @@ function Home(){
                          <p className="title">👋🏻 Welcome, IGN.</p>
                     </div>
                     <div className="landing-subtitle-container">
-                         <p className="subtitle">My name is <span className="title-emphasis">Kevin Nguyen</span> and I'd like to be your next <span className="title-emphasis">IGN product manager intern</span>. <br />I hope we can work together someday.</p>
+                         <p className="subtitle">My name is <span className="title-emphasis">Kevin Nguyen</span> and I'd like to be your next <span className="title-emphasis">IGN product manager intern</span>. <br />I hope we can work together someday. <a className="portfolio-link" href="http://kevinn.net/"> Portfolio</a> | <a className="portfolio-link" href="https://www.linkedin.com/in/kevinnguyen805/">LinkedIn</a> </p>
+                         {/* <p className="subtitle"><a className="portfolio-link" href="http://kevinn.net/">Portfolio</a> | <a className="portfolio-link" href="https://www.linkedin.com/in/kevinnguyen805/">LinkedIn</a></p> */}
                     </div>
                     <div className="call-to-action">
                          <a href="#introduction" alt="introlink"><img src={arrow} alt="proceed arrow" className="landing-button"/></a>

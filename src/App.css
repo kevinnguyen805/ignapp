@@ -413,6 +413,11 @@ nav a:hover{
   /* border:1px solid red; */
   text-decoration:underline;
 }
+.portfolio-link{
+  /* color:#2F80ED; */
+  color:black;
+  font-size:1rem;
+}
 
 
 .application-footer-container{
