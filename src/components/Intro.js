@@ -9,12 +9,19 @@ import bio from '../assets/biopm.png'
 import twitter2 from '../assets/twitter2.png'
 import twitter3 from '../assets/twitter3.png'
 
+
+// user testing
+import google from '../assets/googledoc.png'
+import notion from '../assets//notion.png'
+
 // product expansion
 import p1 from '../assets/product1.png'
 import p2 from '../assets/product2.png'
 import p3 from '../assets/product3.png'
 import p4 from '../assets/product4.png'
 import p5 from '../assets/product5.png'
+import ac from '../assets/ac.png'
+import kt from '../assets/kuwtk.png'
 
 
 // user feedback 
@@ -303,12 +310,21 @@ function Intro(){
                          <div className="column-title-container">
                               <div className="column-content-container">
                                    <div className="column-content">
-                                        <p className="content">Direct messaging on Twitter is not ideal because of how slow and clunky the UI is. It feels as though group messaging is a separate entity, largely because of how many clicks it takes to access or start a conversation. This is a waste because the way you connect on Twitter feels more natural than any social media app. In contrast, apps like Facebook Messenger or Snapchat messaging allows users to seamlessly transition between the app’s primary functionality and engaging in private messaging. </p>
+                                        <p className="content">Direct messaging on Twitter is not ideal because of how slow and clunky the UI is. It feels as though group messaging is a separate entity, largely because of how many clicks it takes to access/start a conversation. <br /><br /> This is a waste because Twitter is a global platform where anyone can add their insights. The way you connect with other users feel more natural than any social media app, but to instigate that connection requires a higher cognitive load.                                     
+                                         </p>
                                         <div className="content-labels">
                                              <div className="button-container">
                                                   <button className="button-label lightblue">Direct messages</button>
-                                                  <button className="button-label orange">Slow UI</button>
-                                                  <button className="button-label lightpink">Heavy clicking</button>
+                                                  <button className="button-label orange">High cognitive load</button>
+                                             </div>
+                                        </div>
+                                   </div>
+                                   <div className="column-content">
+                                        <p className="content">In contrast, apps like Facebook Messenger or Snapchat messaging allows users to seamlessly transition between the app’s primary functionality and engaging in private messaging. </p>
+                                        <div className="content-labels">
+                                             <div className="button-container">
+                                                  <button className="button-label teal">Seemless transitions</button>
+                                                  <button className="button-label lightpink">Intuitive UI</button>
                                              </div>
                                         </div>
                                    </div>
@@ -321,43 +337,112 @@ function Intro(){
 
                <div className="question-container alternative" id="user-testing">
                     <div className="column-title-alternative">
-                         <p className="title">User testing </p>
+                         <p className="title">Testing</p>
                     </div>
                     <div className="question-container">
                          <div className="column-title-container">
+                              <div className="column-title sub-column-title">
+                                   <p className="title">Google Drive</p>
+                              </div>
                               <div className="column-content-container">
                                    <div className="column-content">
-                                        <p className="content">Growing up, I spent 6 years studying Buddhism. My time at these local monasteries allowed me to develop a keen sense of empathy. It allowed me to take on leadership roles such as class president and recruitment director during high school and college.</p>
+                                        <p className="content">Google Drive does a good job at unifying workplace tools. However, companies like Airtable and Notion are quickly drawing users to their platforms because of their enhanced workflows, demonstrating the true potential of online work tools. Therefore, I believe tools like Google Forms and Google Document could benefit from user testing.</p>
                                         <div className="content-labels">
                                              <div className="button-container">
-                                                  <button className="button-label red">Empathy</button>
-                                                  <button className="button-label darkblue">Leadership</button>
+                                                  <button className="button-label purple">Google Forms</button>
+                                                  <button className="button-label red">Google Documents</button>
+                                             </div>
+                                        </div>
+                                   </div>
+                              </div>
+                              <div className="column-content">
+                                        <p className="content">Possible areas of concerns for Google Form:
+                                             <br />
+                                             <br />• Longer Google Forms are less likely to be completed because all the questions are presented at once. Overwhelmed users will not even attempt it. 
+                                             <br />
+                                             <br />• While the UI is intuitive to some, it’s efforts towards simplicity limits users from personalizing their forms and leaves other users lost. 
+                                        </p>
+                                        <div className="content-labels">
+                                             <div className="button-container">
+                                                  <button className="button-label lightblue">Restricted UI</button>
+                                                  <button className="button-label orange">Limited personalization</button>
+                                             </div>
+                                        </div>
+                                   </div>
+                                   <div className="column-content">
+                                        <p className="content">Possible concerns for Google Documents:
+                                             <br />
+                                             <br />• While Google Docs has a range of functionality to it, it lacks streamlined functionality that other applications are adopting. For example, :Slack-emojis: and Notion ‘basic blocks’. 
+                                             <br />
+                                             <br />• Less functionality when it comes to organizing and sharing documents in a collaborative space.
+                                        </p>
+                                        <div className="content-labels">
+                                             <div className="button-container">
+                                                  <button className="button-label yellow">Bulky functionality</button>
+                                                  <button className="button-label green">Limited collaboration</button>
+                                             </div>
+                                        </div>
+                                   </div>
+                         </div>
+                         <div className="column-title-container">
+                              <div className="column-content-container">
+                                   <div className="column-title sub-column-title">
+                                        <p className="title">User screening</p>
+                                   </div>
+                                   <div className="column-content">
+                                        <p className="content">
+                                             Quantitative survey focused around the demographics of users. This is where we collect data on their age, background, education, profession, and income.
+                                             <br /><br />Qualitative survey focused around the personal profile of the user. This is where we collect data on their personality, knowledge of the app and its industry, and their habits around the app.
+                                             </p>
+                                        <div className="content-labels">
+                                             <div className="button-container">
+                                                  <button className="button-label teal">Demographic survey</button>
+                                                  <button className="button-label pink">User profile survey</button>
+                                             </div>
+                                        </div>
+                                   </div>
+                                   <div className="column-title sub-column-title">
+                                        <p className="title">User tests</p>
+                                   </div>
+                                   <div className="column-content">
+                                        <p className="content">
+                                             <span className="survey-title">Scenario survey</span> <br />Give users scenarios representing areas of concerns or primary functions of the app, and have them explain how they would approach the task.
+                                             <br /><br /><span className="survey-title">Usability test</span> <br />Give users a simple, but predetermined and structured task to do so that users act based on their natural thought process.
+                                             <br />• Create a Google Form to survey people’s favorite candy
+                                             <br />• Use Google Document to create a documented outline of a book
+                                             <br /><br /><span className="survey-title">Qualitative survey</span>
+                                             <br />• What features the user likes / dislikes
+                                             <br />• What features the user found confusing / intuitive
+                                             <br />• What features the user thought was easy / hard to do
+                                             <br />• What features the user uses the app for
+                                             <br />• What features the user don’t use the app for and what specific part aspects makes it tough for them
+                                             </p>
+                                        <div className="content-labels">
+                                             <div className="button-container">
+                                                  <button className="button-label darkblue">Usability test</button>
+                                                  <button className="button-label lightpink">Qualitative metrics</button>
                                              </div>
                                         </div>
                                    </div>
                               </div>
                          </div>
                          <div className="column-title-container">
-                              <div className="column-content-container">
-                                   <div className="column-content">
-                                        <p className="content">Growing up, I spent 6 years studying Buddhism. My time at these local monasteries allowed me to develop a keen sense of empathy. It allowed me to take on leadership roles such as class president and recruitment director during high school and college.</p>
-                                        <div className="content-labels">
-                                             <div className="button-container">
-                                                  <button className="button-label red">Empathy</button>
-                                                  <button className="button-label darkblue">Leadership</button>
-                                             </div>
-                                        </div>
-                                   </div>
+                              <div className="column-title sub-column-title">
+                                   <p className="title">Analytics</p>
                               </div>
-                         </div>
-                         <div className="column-title-container">
                               <div className="column-content-container">
+                                   
                                    <div className="column-content">
-                                        <p className="content">Growing up, I spent 6 years studying Buddhism. My time at these local monasteries allowed me to develop a keen sense of empathy. It allowed me to take on leadership roles such as class president and recruitment director during high school and college.</p>
+                                        <p className="content">User scenario tests are used to see how users approach a task. This can be used to <span className="title-emphasis">understand the expectations users have for functionality and workflow</span>. 
+                                             <br /><br />Usability tests with software tracking systems are conducted to monitor user flow and areas where users show a lot of activity vs. low activity. This can be used to to <span className="title-emphasis">confirm prototypes/user flows, pinpoint areas of confusion, and take advantage of areas that users are more active in</span>. 
+                                             <br /><br />User surveys can be used to find relationships between their background and how they approach the application. This is also an opportunity to <span className="title-emphasis">determine valued features and inefficient features that are preventing users from coming back</span>.
+
+                                             </p>
                                         <div className="content-labels">
                                              <div className="button-container">
-                                                  <button className="button-label red">Empathy</button>
-                                                  <button className="button-label darkblue">Leadership</button>
+                                                  <button className="button-label green">Workflow</button>
+                                                  <button className="button-label royalblue">Functionality</button>
+                                                  <button className="button-label yellow">Design</button>
                                              </div>
                                         </div>
                                    </div>
@@ -373,9 +458,12 @@ function Intro(){
                     </div>
                     <div className="question-container">
                          <div className="column-title-container">
+                              <div className="column-title sub-column-title">
+                                   <p className="title">Method 1</p>
+                              </div>
                               <div className="column-content-container">
                                    <div className="column-content">
-                                        <p className="content">Method 1: Use social media platforms to bring brand awareness. Manipulating how the content is delivered, such as through memes or Tik Toks, allow the show to trend viraly through the fanbase themselves. This is commonly used by music producers to draw interest. <br /><br/> An infamous example is Lil Nas X, who edited funny videos to his songs to gain new followers. As a result, his song Old town road hit diamond and stayed at #1 for 19 weeks. </p>
+                                        <p className="content">Use social media platforms to bring brand awareness. Manipulating how the content is delivered, such as through memes or Tik Toks, allow the show to trend viraly through the fanbase themselves. </p>
                                         <div className="content-labels">
                                              <div className="button-container">
                                                   <button className="button-label pink">Social media presence</button>
@@ -384,21 +472,36 @@ function Intro(){
                                         </div>
                                    </div>
                                    <div className="column-content">
-                                        <img className="content-image" src={p4} alt="product" />
+                                        <img className="content-image" src={p2} alt="product" />
+                                        <p className="content">An infamous example is Lil Nas X, who edited funny videos to his songs to gain new followers. As a result, his song Old town road hit diamond and stayed at #1 for 19 weeks. </p>
+                                   </div>
+                                   <div className="column-content">
+                                        <img className="content-image" src={kt} alt="product" />
+                                        <p className="content">The Kardashians interact with their fans using the #KUWTK hashtag whenever a new episode of their show, Keeping Up With The Kardashians, airs. Fans are encouraged to tune in and live-tweet their reactions for a chance to receive a reply from one of the Kardashians. A win-win situation. </p>
+                                   </div>
+                                   {/* <div className="column-content">
+                                        <img className="content-image" src={kt} alt="product" />
                                    </div>
                                    <div className="column-content">
                                         <img className="content-image" src={p2} alt="product" />
                                         <img className="content-image" src={p3} alt="product" />
-                                   </div>
+                                   </div> */}
+                                   {/* <div className="column-content">
+                                        <img className="content-image" src={p1} alt="product" />
+                                   </div> */}
+     
                                    {/* <div className="column-content">
                                         <img className="content-image" src={p3} alt="product" />
                                    </div> */}
                               </div>
                          </div>
                          <div className="column-title-container">
+                              <div className="column-title sub-column-title">
+                                   <p className="title">Method 2</p>
+                              </div>
                               <div className="column-content-container">
                                    <div className="column-content">
-                                        <p className="content">Method 2: Creating an online presence of the characters in the show also allows users to engage with the show, even when they’re not watching it. Striking an emotional chord in users creates a bond that goes beyond content. <br /><br />Brand loyalty becomes powerful when people resonate with a character or a story, so capitalizing on these aspects of the show ensures that viewers will stick around for the long run. You can further this by using marketing techniques like brand partnerships or blog articles relevant to the user’s interests to further their engagement.</p>
+                                        <p className="content">Creating an online presence of the characters allow users to be engaged with the show, even when they’re not watching it. Striking an emotional chord creates a bond that goes beyond content. Brand loyalty becomes powerful when people resonate with a character or a story, so capitalizing on these aspects of the show ensures that viewers will stick around for the long run.</p>
                                         <div className="content-labels">
                                              <div className="button-container">
                                                   <button className="button-label royalblue">Emotional bond</button>
@@ -407,14 +510,36 @@ function Intro(){
                                         </div>
                                    </div>
                                    <div className="column-content">
-                                        <img className="content-image" src={p5} alt="product" />
+                                        <p className="content">You can further this by using marketing techniques like brand partnerships or blog articles relevant to the user’s interests to build anticipation, increase word-of-mouth advertisement, and further user engagement.</p>
+                                        <div className="content-labels">
+                                             <div className="button-container">
+                                                  <button className="button-label green">Partnerships</button>
+                                                  <button className="button-label purple">Word-of-mouth advertising</button>
+                                             </div>
+                                        </div>
                                    </div>
                                    <div className="column-content">
-                                        <img className="content-image" src={p1} alt="product" />
+                                        <img className="content-image" src={p5} alt="product" />
+                                        <p className="content">Ryan Reynolds brings Deadpool to life by breaking the 4th wall to engage with recognizable people in real life. Using the power of association, fans of Justin Trudeau are now fans of Deadpool. </p>
                                    </div>
+                                   {/* <div className="column-content">
+                                        <img className="content-image" src={ac} alt="product" />
+                                        <p className="content">Animal Crossing created a limited edition Switch console to bring hype before the release of New Horizons. It sold out in every marketplace on the day of its release. It is now being auctioned for 150% the price.</p>
+                                   </div> */}
+                                   {/* <div className="column-content">
+                                        <img className="content-image" src={ac} alt="product" />
+                                   </div>
+                                   <div className="column-content">
+                                        <img className="content-image" src={p5} alt="product" />
+                                   </div> */}
+          
                               </div>
                          </div>
+                         
                          <div className="column-title-container">
+                              <div className="column-title sub-column-title">
+                                   <p className="title">Determining success</p>
+                              </div>
                               <div className="column-content-container">
                                    {/* <div className="column-content">
                                         <p className="content"></p>
@@ -427,32 +552,53 @@ function Intro(){
                                    </div> */}
                                    <div className="column-content">
                                         <p className="content">
-                                             How long are people staying on a video?
-                                             <br />
-                                             If users lose interest in the beginning of the video, focus on making it more engaging for users to stick around. 
+                                             We can use KPIs and a set period of time to evaluate if the show is successful. <br /><br />For example, we could specify that we want to use our new social campaign to achieve 20% more viewers over the next 3 episodes. Other possible quantitative metrics: 
+                                             <br /><br />• How long are people staying on a video? 
+                                             <br /><br />• How many viewers are tuning in live vs. after the video is uploaded?
+                                             <br /><br />• How many users are engaging with the video via comments? Via social media?
+                                             
                                         </p>
+                                        <div className="content-labels">
+                                             <div className="button-container">
+                                                  <button className="button-label lightpink">Quantitative metrics</button>
+                                                  <button className="button-label darkblue">KPI</button>
+                                                  <button className="button-label yellow">Viewership</button>
+                                             </div>
+                                        </div>
                                    </div>
                                    <div className="column-content">
                                         <p className="content">
-                                             What videos are users coming back to? 
-                                             <br />
-                                             Categorize the shows and invest more resources on the categories that are doing well. It’s what they want!
+                                             We can further compare shows amongst each other using qualitative evaluations. This could be useful for determining if a show is successful if it gained more viewers on a certain platform or saw an increase in a certain user demographic. Possible metrics: 
+                                             <br /><br />• What shows are users coming back to? 
+                                             <br /><br />• What kind of users are coming back to these new shows? 
+                                             <br /><br />• What platforms are these shows being watched on? 
+                              
                                         </p>
+                                        <div className="content-labels">
+                                             <div className="button-container">
+                                                  <button className="button-label red">Qualitative metrics</button>
+                                                  <button className="button-label lightblue">User demographics</button>
+                                             </div>
+                                        </div>
                                    </div>
                                    <div className="column-content">
                                         <p className="content">
-                                             What kind of users are coming back to the video? 
-                                             <br />
-                                             Understanding user demographics and curtailing content to satisfy their expectations.
+                                             To evaluate these metrics, we can use platforms like Google Analytics and mouse-tracking/eye-tracking software. We can also conduct user surveys and evaluate forums/the commenting sections. 
                                         </p>
+                                        <div className="content-labels">
+                                             <div className="button-container">
+                                                  <button className="button-label green">Google Analytics</button>
+                                                  <button className="button-label orange">Forums</button>
+                                             </div>
+                                        </div>
                                    </div>
-                                   <div className="column-content">
+                                   {/* <div className="column-content">
                                         <p className="content">
                                              What users are leaving and why? 
                                              <br />
                                              Gather info on which user base is not engaged with the content and understanding why.
                                         </p>
-                                   </div>
+                                   </div> */}
                               </div>
                          </div>
                     </div>
@@ -460,72 +606,104 @@ function Intro(){
 
 
                <div className="question-container alternative" id="user-feedback">
-                    <div className="column-title-alternative">
+                    <div className="column-title">
                          <p className="title">User feedback</p>
                     </div>
-
+                   <div className="pivot-table-wrapper">
+                         <div className="pivot-table-container pivoting">
+                              <img className="content-image" src={uf4} alt="pivot table" />
+                              {/* <img className="content-image" src={uf2} alt="pivot table" /> */}
+                         </div>
+                         {/* <div className="column-content pivot-table-container">
+                              <img className="content-image" src={uf2} alt="pivot table" />
+                         </div> */}
+                         <div className="pivot-table-container pivoter">
+                              <img className="content-image" src={uf2} alt="pivot table" />
+                              <img className="content-image smaller-pivot" src={uf1} alt="pivot table" />
+                         </div>
+                   </div>
+                    
                     <div className="question-container">
+                         
                          <div className="column-title-container">
+                              <div className="column-title">
+                                   <p className="title">R1: Sort by theme</p>
+                              </div>
                               <div className="column-content-container">
                                    <div className="column-content">
-                                        <p className="content">Growing up, I spent 6 years studying Buddhism. My time at these local monasteries allowed me to develop a keen sense of empathy. It allowed me to take on leadership roles such as class president and recruitment director during high school and college.</p>
-                                        <div className="content-labels">
-                                             <div className="button-container">
-                                                  <button className="button-label red">Empathy</button>
-                                                  <button className="button-label darkblue">Leadership</button>
-                                             </div>
-                                        </div>
+                                        <p className="content">In the first round, I read through each comment with the intention of finding overlapping problems. For each URL, I put myself in the mindset of the user to understand why they sent the comment. </p>
+                                   </div>
+                                   <div className="column-content">
+                                        <p className="content">Some questions I asked myself during this process included:
+                                             <br />
+                                             <br />• How fast can I find this information?
+                                             <br />• How easy would it be to search it with command keys?
+                                             <br />• Is the info I am looking for missing, rendered elsewhere, or incomplete? </p>
+                                   </div>
+                                   <div className="column-content">
+                                        <p className="content"> In doing so, I finished my 1st run through with 3 broad themes:
+                                        <br />
+                                        <br />• Not enough info
+                                        <br />• Info inaccessible
+                                        <br />• Info unavailable 
+                                        <br />
+                                        <br />
+                                             <a className="pivot-table-link" href="https://docs.google.com/spreadsheets/d/1KrocpZ7Srl_f8xeHFUs_nKvEuxNIZbH_5NTHn5Oq3PA/edit?usp=sharing">Click here to see the Wiki Feedback table.</a>
+                                        </p>
                                    </div>
                               </div>
+                              
                          </div>
-                         <div className="column-content pivot-table-container">
-                              <img className="content-image" src={uf4} alt="pivot table" />
-                              <img className="content-image" src={uf2} alt="pivot table" />
-                              <img className="content-image" src={uf1} alt="pivot table" />
+                         <div className="column-title-container">
+                              <div className="column-content-container">
+                                   <div className="column-title">
+                                        <p className="title">R2: Sort by type</p>
+                                   </div>
+                                   <div className="column-content"><p className="content">During my 2nd run through, I used the 3 categories to identify more specific issues. <br /><br />For example, if the user said the guide was incomplete, was the info actually missing or was it too vague, leading them to believe it wasn’t there?
+                                             </p>
+                                   </div>
+                                   <div className="column-content">
+                                        <p className="content">In the 2nd round, I identified 5 categories:
+                                        <br />
+                                             <br />• Missing content
+                                             <br />• Vague content
+                                             <br />• Incomplete content
+                                             <br />• Rendering issue
+                                             <br />• Inefficient user flow
+                                             <br />
+                                             <br />
+                                             <a className="pivot-table-link" href="https://docs.google.com/spreadsheets/d/1KrocpZ7Srl_f8xeHFUs_nKvEuxNIZbH_5NTHn5Oq3PA/edit?usp=sharing">Click here to see the pivot table and chart.</a>
+                                             </p>
+                                   </div>
+                                        {/* <img className="content-image" src={uf1} alt="pivot table" /> */}
+                    
+                              </div>
+                         </div>
+                         <div className="column-title-container">
+                              <div className="column-content-container">
+                                   {/* <div className="column-content">
+                                        <p className="content">These 5 categories were specific enough where I could see specific roles step in to fix it. In my last run through, I thought about what kind of approach would best fix this.
+                                            
+                                             </p>
+                                   </div> */}
+                                   <div className="column-title-alternative">
+                                        <p className="title">Future testing</p>
+                                   </div>
+                                   <div className="column-content">
+                                        <p className="content">To solve rendering issues, I would implement <span className="title-emphasis">pre-production tests/QA tests</span> to ensure all content is rendered properly once it hits production environment.
+                                             </p>
+                                   </div>
+                                   <div className="column-content">
+                                        <p className="content">Many comments expressed concerns that specific content was left out, which highlights that these users already knew about this info. <br /><br />I would invest resources into gathering more<span className="title-emphasis">user stories and game data</span> centered around these types of players to serve future users who are looking for the same level of in-depth guides. <br /><br />Additionally, I would have a team<span className="title-emphasis">verify the content</span> to ensure the guides did not leave out any small, but crucial details.
+                                             </p>
+                                   </div>
+                                   <div className="column-content">
+                                        <p className="content">There were a few comments that expressed dissatisfaction with how content was presented. When I went to these sites myself, I thought about how long it took me and many clicks I did to find an arbitrary guide. My experience led me to believe that this dissatisfaction came from how much “work” users had to put in to find something. <br /><br />Investing into <span className="title-emphasis">UX and implementing usability tests</span>, such as the one I did for myself, would help assess whether the content is easy for users to navigate.
+                                             </p>
+                                   </div>
+                              </div>
                          </div>
                     </div>
-                    
-                    {/* <div className="question-container">
-                         <div className="column-title-container">
-                              <div className="column-content-container">
-                                   <div className="column-content">
-                                        <p className="content">Growing up, I spent 6 years studying Buddhism. My time at these local monasteries allowed me to develop a keen sense of empathy. It allowed me to take on leadership roles such as class president and recruitment director during high school and college.</p>
-                                        <div className="content-labels">
-                                             <div className="button-container">
-                                                  <button className="button-label red">Empathy</button>
-                                                  <button className="button-label darkblue">Leadership</button>
-                                             </div>
-                                        </div>
-                                   </div>
-                              </div>
-                         </div>
-                         <div className="column-title-container">
-                              <div className="column-content-container">
-                                   <div className="column-content">
-                                        <p className="content">Growing up, I spent 6 years studying Buddhism. My time at these local monasteries allowed me to develop a keen sense of empathy. It allowed me to take on leadership roles such as class president and recruitment director during high school and college.</p>
-                                        <div className="content-labels">
-                                             <div className="button-container">
-                                                  <button className="button-label red">Empathy</button>
-                                                  <button className="button-label darkblue">Leadership</button>
-                                             </div>
-                                        </div>
-                                   </div>
-                              </div>
-                         </div>
-                         <div className="column-title-container">
-                              <div className="column-content-container">
-                                   <div className="column-content">
-                                        <p className="content">Growing up, I spent 6 years studying Buddhism. My time at these local monasteries allowed me to develop a keen sense of empathy. It allowed me to take on leadership roles such as class president and recruitment director during high school and college.</p>
-                                        <div className="content-labels">
-                                             <div className="button-container">
-                                                  <button className="button-label red">Empathy</button>
-                                                  <button className="button-label darkblue">Leadership</button>
-                                             </div>
-                                        </div>
-                                   </div>
-                              </div>
-                         </div>
-                    </div> */}
                </div> 
 
 

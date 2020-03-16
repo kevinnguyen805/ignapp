@@ -55,9 +55,7 @@ html,body{
   box-sizing:border-box;
   color: #2e2f38;
   line-height:1.26;
-  /* max-width: 100%; */
-  /* overflow-x: hidden; */
-  /* overflow-y: hidden; */
+  
   scroll-behavior:smooth;
   letter-spacing: 0.02em;
   }
@@ -67,6 +65,7 @@ html,body{
   
   
 }
+
 
 nav{
   height:50px;
@@ -371,8 +370,49 @@ nav a:hover{
   /* border:1px solid red; */
   width:100%;
 }
-
-
+.pivot-table-wrapper{
+  width:100%;
+  display:flex;
+  /* border:1px solid green; */
+  /* flex-direction:column; */
+  justify-content:space-between;
+}
+.pivot-table-container{
+  /* border:1px solid red; */
+  /* width:49%; */
+  
+  /* display:block; */
+}
+.pivoting{
+  width:54.5%;
+}
+.pivoter{
+  width:44.5%;
+}
+.smaller-pivot{
+  /* width:80%; */
+}
+.pivot-table-container img{
+  border-radius:10px;
+  background-color:white;
+  margin:5px;
+  /* width:30%; */
+  padding:10px 15px;
+  /* padding-bottom:20px; */
+  /* margin-bottom:20px; */
+  border:1px solid #ECF1F5;
+}
+.pivot-table-link{
+  color:#2F80ED;
+  /* text-decoration:none; */
+}
+.sub-column-title{
+  font-size:1.5rem;
+}
+.survey-title{
+  /* border:1px solid red; */
+  text-decoration:underline;
+}
 
 
 .application-footer-container{
@@ -429,3 +469,4 @@ nav a:hover{
 .lightpink{
   background-color:#fe9a8c;
 }
+button:focus {outline:0;}
