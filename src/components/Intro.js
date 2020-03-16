@@ -1,4 +1,5 @@
 import React from 'react'
+import arrow from './arrow.svg'
 
 // why PM?
 import pr1 from '../assets/productrelease1.png'
@@ -37,7 +38,6 @@ function Intro(){
                <div className="question-container first-container" id="introduction">
                <div className="column-title-container">
                     <div className="column-title">
-                         {/* <p className="title">👋🏻 Introduction </p> */}
                          <p className="title">Introduction </p>
                     </div>
                     <div className="column-content-container">
@@ -87,6 +87,7 @@ function Intro(){
                     <div className="column-title">
                          {/* <p className="title">🎮 Connection to IGN </p> */}
                          <p className="title">Connection to IGN </p>
+                         
                     </div>
                     <div className="column-content-container">
                          {/* <div className="column-content">
@@ -137,6 +138,7 @@ function Intro(){
                          </div> */}
                          
                     </div>
+                    
                </div> 
                <div className="column-title-container">
                     <div className="column-title">
@@ -195,6 +197,10 @@ function Intro(){
                          
                     </div>
                </div> 
+               
+               </div>
+               <div className="arrow-container">                         
+                    <a href="#why-pm" alt="introlink"><img src={arrow} alt="proceed arrow" /></a>
                </div>
 
 
@@ -202,6 +208,7 @@ function Intro(){
 
                     <div className="column-title-alternative">
                          <p className="title">Why product management? </p>
+                         <p className="subtitle-question">Why are you interested in product management? Tell us about how you incorporate facets of product management into your life right now.</p>
                     </div>
 
                     <div className="question-container">
@@ -262,7 +269,9 @@ function Intro(){
 
 
                </div>
-
+               <div className="arrow-container">                         
+                    <a href="#web-product" alt="introlink"><img src={arrow} alt="proceed arrow" /></a>
+               </div>
 
 
 
@@ -271,6 +280,7 @@ function Intro(){
                     <div className="column-title-alternative">
                          <div className="column-title">
                               <p className="title"> Favorite web product</p>
+                              <p className="subtitle-question">Tell us about your favorite web product. What are the features you appreciate, and what are some of the features you think could be improved?</p>
                          </div>
                     </div>
                     <div className="question-container">
@@ -332,12 +342,15 @@ function Intro(){
                          </div>
                     </div>
                </div> 
-
+               <div className="arrow-container">                         
+                    <a href="#user-testing" alt="introlink"><img src={arrow} alt="proceed arrow" /></a>
+               </div>
 
 
                <div className="question-container alternative" id="user-testing">
                     <div className="column-title-alternative">
                          <p className="title">Testing</p>
+                         <p className="subtitle-question">User testing is a critical part of discovering how users perceive our site vs how we do. Tell us about a game you’ve played/site you’ve recently visited/app you’ve recently used that you think would benefit from user testing. Create a plan for how you’d approach gathering and analyzing user information to help inform the decisions that need to be made.</p>
                     </div>
                     <div className="question-container">
                          <div className="column-title-container">
@@ -450,11 +463,14 @@ function Intro(){
                          </div>
                     </div>
                </div> 
-
+               <div className="arrow-container">                         
+                    <a href="#product-expansion" alt="introlink"><img src={arrow} alt="proceed arrow" /></a>
+               </div>
 
                <div className="question-container alternative" id="product-expansion">
                     <div className="column-title-alternative">
                          <p className="title">Product team gameplan</p>
+                         <p className="subtitle-question">Last year we released some new shows on IGN, and the content team would like to get more viewers for those shows. Tell us a few ways the product team can help them achieve this goal, and what metrics you would look at to determine whether or not these shows are a success.</p>
                     </div>
                     <div className="question-container">
                          <div className="column-title-container">
@@ -612,11 +628,14 @@ function Intro(){
                          </div>
                     </div>
                </div> 
-
+               <div className="arrow-container">                         
+                    <a href="#user-feedback" alt="introlink"><img src={arrow} alt="proceed arrow" /></a>
+               </div>
 
                <div className="question-container alternative" id="user-feedback">
                     <div className="column-title">
                          <p className="title">User feedback</p>
+                         <p className="subtitle-question">IGN has been collecting feedback from our wiki users to figure out ways we could improve their experience. Make a copy of the spreadsheet linked here. Create a pivot table grouping this feedback into categories that will help us improve user experience on wiki pages, and what you would suggest for next steps.</p>
                     </div>
                    <div className="pivot-table-wrapper">
                          <div className="pivot-table-container pivoting">

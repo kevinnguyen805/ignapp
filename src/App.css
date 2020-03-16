@@ -173,6 +173,11 @@ nav a:hover{
 		transform: translatey(0px);
 	}
 }
+.subtitle-question{
+  font-size:14px;
+  color:#596b77;
+  text-align:center;
+}
 
 
 
@@ -274,7 +279,13 @@ nav a:hover{
   /* margin:10px; */
   /* border:1px solid red; */
 }
-
+.arrow-container{
+  /* border:1px solid red; */
+  margin-top:-10px;
+  width:100%;
+  display:flex;
+  justify-content:center;
+}
 
 
 .column-content-container{
@@ -371,6 +382,7 @@ nav a:hover{
   width:100%;
 }
 .pivot-table-wrapper{
+  margin-top:15px;
   width:100%;
   display:flex;
   /* border:1px solid green; */
